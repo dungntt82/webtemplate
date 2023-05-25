@@ -1,5 +1,27 @@
-*{
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
+.header{
+    height: 120px;
+    background-image: linear-gradient(#fe6433,#f53e2d);
+}
+
+.header__navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__navbar-list{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.header__navbar-item{
+    margin: 0px 8px;
+    display: inline-block;
+    font-size: 1.5rem;
+}
+
+
+.header__navbar-item-link{
+    color: var(--white-color);
+    text-decoration: none;
+    font-weight: 400;
 }
